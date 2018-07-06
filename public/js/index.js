@@ -6,10 +6,6 @@ socket.on('connect',function() {
     //     to: 'naveen@gmail.com',
     //     text: 'hey this is naveen'
     // });
-    socket.emit('createMessage',{
-        from: 'Shivam',
-        text: 'hey this is Shivam'
-    });
 });
 socket.on('disconnect',function() {
     console.log('Disconect to server');
